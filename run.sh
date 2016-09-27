@@ -23,7 +23,7 @@ build()
 
 run()
 {
-    sudo ./build/wpa_supplicant -Dnl80211,wext -i wlan2 -c config/wpa-psk-tkip.conf -d
+    sudo ./build/wpa_supplicant -Dwext -i wlan2 -c config/wpa-psk-tkip.conf -d
 }
 
 
